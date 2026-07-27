@@ -1,7 +1,8 @@
-function Main({name, location}) {
+function Main() {
     return(
         <header>
-            <h1>{location}에 거주하는 {name}</h1>
+            <h2>모집중인 프로젝트</h2>
+            <hr />
         </header>
     );
 }
