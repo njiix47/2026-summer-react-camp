@@ -1,9 +1,11 @@
 function getGameScore() {
+    
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(80);
         }, 1000);
     });
+    
 }
 
 getGameScore()

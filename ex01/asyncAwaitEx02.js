@@ -1,9 +1,11 @@
 function fetchData() {
+    
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve('데이터 가져오기 성공');
         }, 2000);
     });
+    
 }
 
 async function showData() {

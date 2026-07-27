@@ -5,8 +5,10 @@ async function orderProduct() {
     const deliveryResult = await prepareDelivery(paymentResult);
 
     console.log(deliveryResult);
+
   } catch (error) {
     console.log(`주문 실패: ${error.message}`);
+    
   }
 }
 orderProduct();

@@ -1,4 +1,5 @@
 function getProductPrice(productName) {
+    
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (productName === '') {
@@ -14,6 +15,7 @@ function getProductPrice(productName) {
             resolve(120000);
         }, 1000);
     });
+    
 }
 
 getProductPrice('스마트폰') 

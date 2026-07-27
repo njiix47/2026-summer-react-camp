@@ -1,4 +1,5 @@
 function getLunchMenu(day) {
+    
     return new Promise((resolve , reject) => {
         setTimeout(() => {
             if (day == '월요일') {
@@ -17,6 +18,7 @@ function getLunchMenu(day) {
             }
         }, 1000);
     });
+    
 }
 
 
